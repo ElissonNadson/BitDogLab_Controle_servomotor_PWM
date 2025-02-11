@@ -12,8 +12,10 @@ int main()
     uint slice_num = pwm_gpio_to_slice_num(22);
     pwm_set_clkdiv(slice_num, 100.0f);           // ajuste para 50Hz com wrap de 25000
     pwm_set_wrap(slice_num, 25000);              // define o período (20ms)
-    pwm_set_chan_level(slice_num, pwm_gpio_to_channel(22), 1500); // duty cycle padrão para servo
+    // Ajustar ciclo ativo para 2.400µs (aproximadamente 3 ticks) para posicionar o servo em 180°
+    pwm_set_chan_level(slice_num, pwm_gpio_to_channel(22), 3);
     pwm_set_enabled(slice_num, true);
+    sleep_ms(5000); // aguardar 5 segundos com a posição
 
     // Configurar GPIO 12 como saída digital para o LED RGB
     gpio_init(12);
