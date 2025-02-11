@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "Elisson Nadson",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": 6.35,
+      "left": -15.65,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": 17.2,
+      "left": 105.6,
+      "attrs": { "hornColor": "#000" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 25.2,
+      "left": -63.4,
+      "attrs": { "color": "magenta" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 120,
+      "left": -77.35,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "servo1:GND", "pico:GND.8", "#8f4814", [ "h-28.8", "v-28.8" ] ],
+    [ "pico:3V3", "servo1:V+", "red", [ "h9.91", "v19.1" ] ],
+    [ "pico:GP22", "servo1:PWM", "orange", [ "h9.91", "v-38.6" ] ],
+    [ "pico:GP12", "led1:A", "purple", [ "h0" ] ],
+    [ "r1:1", "led1:C", "black", [ "h0" ] ],
+    [ "pico:GND.4", "r1:2", "black", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}

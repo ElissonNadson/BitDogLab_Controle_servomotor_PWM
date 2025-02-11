@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/BitDogLab_Controle_servomotor_PWM.uf2'
+elf = 'build/BitDogLab_Controle_servomotor_PWM.elf'
