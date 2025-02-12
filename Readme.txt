@@ -64,21 +64,13 @@ Após a compilação, o firmware pode ser carregado na simulação **Wokwi**.
 ## 📷 Fluxo do Projeto  
 https://raw.githubusercontent.com/ElissonNadson/BitDogLab_Controle_servomotor_PWM/refs/heads/main/Untitled%20Diagram%20(11).png
 
-### 📊 Estrutura do Código  
 
-```
-BitDogLab_Controle_servomotor_PWM/  
-├── src/                 # Código fonte  
-├── include/             # Arquivos de cabeçalho  
-├── tests/               # Testes para validação  
-├── README.md            # Documentação do projeto  
-└── CMakeLists.txt       # Configuração do CMake  
-```  
 
 ### 🎥 Demonstração  
 
 🔗 Assista ao vídeo demonstrativo:  
 
+https://youtu.be/ETyz0Gz5P1I
 
 ---
 
