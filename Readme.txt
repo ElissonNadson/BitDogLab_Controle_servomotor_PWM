@@ -63,8 +63,6 @@ Após a compilação, o firmware pode ser carregado na simulação **Wokwi**.
 
 ## 📷 Fluxo do Projeto  
 
-
-
 ### 📊 Estrutura do Código  
 
 ```
@@ -79,30 +77,9 @@ BitDogLab_Controle_servomotor_PWM/
 ### 🎥 Demonstração  
 
 🔗 Assista ao vídeo demonstrativo:  
-[![Demonstração do Projeto](https://img.youtube.com/vi/klWZOF3K0bk/0.jpg)](https://youtu.be/klWZOF3K0bk)  
+
 
 ---
-
-## 🤝 Contribuições  
-
-1. Faça um **fork** do repositório.  
-2. Crie uma **branch** com sua funcionalidade:  
-   ```sh
-   git checkout -b minha-feature  
-   ```  
-3. Realize os **commits**:  
-   ```sh
-   git commit -m "Descrição da feature"  
-   ```  
-4. Envie sua branch para o repositório remoto:  
-   ```sh
-   git push origin minha-feature  
-   ```  
-5. Abra um **Pull Request** detalhando as alterações.  
-
----
-
-
 
 💡 Desenvolvido com ❤️ por **Elisson Nadson**.  
 ```  
