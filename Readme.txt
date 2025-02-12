@@ -62,8 +62,7 @@ Após a compilação, o firmware pode ser carregado na simulação **Wokwi**.
 ---
 
 ## 📷 Fluxo do Projeto  
-![Fluxo do Projeto](Untitled%20Diagram%20(11).png)
-
+https://raw.githubusercontent.com/ElissonNadson/BitDogLab_Controle_servomotor_PWM/refs/heads/main/Untitled%20Diagram%20(11).png
 
 ### 📊 Estrutura do Código  
 
